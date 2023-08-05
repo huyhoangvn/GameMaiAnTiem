@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fruits
+  - Trap
+  - River
   layers:
   - Default
   - TransparentFX
@@ -11,11 +14,11 @@ TagManager:
   - 
   - Water
   - UI
+  - Ground
+  - Enemy
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
   - 
   - 
   - 
@@ -38,6 +41,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Late
+    uniqueID: 1030788709
+    locked: 0
+  - name: Background
+    uniqueID: 1216320575
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: River
+    uniqueID: 60513633
+    locked: 0
+  - name: Terrain
+    uniqueID: 1867585667
+    locked: 0
+  - name: Enemy
+    uniqueID: 1188430349
+    locked: 0
+  - name: Player
+    uniqueID: 2336437843
     locked: 0

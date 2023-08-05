@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 30d9f86ef446cb04680b3b5f7e138af1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 204
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8a7e16afabef44c86be477b6ca4296
+      internalID: 1670486956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 202
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596557420f5d0a949aa1587ac071cc73
+      internalID: -304304008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 204
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2229f201367be6499dcd6854660c57e
+      internalID: -1964448397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 202
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bdd6373a2db8248b5c25e492264a66
+      internalID: 710061244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 93
+        width: 71
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788b06ea28e6cf8458c1c51aea48e7f6
+      internalID: -713617490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 97
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d0ab517ee23424784317095b0ab821
+      internalID: -1925720905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 109
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda6a9d82aa9bb048897251d55ab8df9
+      internalID: 1069107208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a84fdd1891ad941a09e2614a09d85b
+      internalID: 345053849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 16
+        width: 87
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71a741624300b341a6192eb2ffc9c85
+      internalID: -1897442897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc19bd10e2a9d8042932e47ebade7c17
+      internalID: -1086431400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_0: 1670486956
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_1: -304304008
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_2: -1964448397
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_3: 710061244
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_4: -713617490
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_5: -1925720905
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_6: 1069107208
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_7: 345053849
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_8: -1897442897
+      png-clipart-sprite-vegetable-fruit-animation-sprite-natural-foods-food-thumbnail-removebg-preview_9: -1086431400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
