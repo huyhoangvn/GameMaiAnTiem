@@ -6605,6 +6605,11 @@ MonoBehaviour:
     volume: 0.3
     pitch: 1
     volumeClip: {fileID: 0}
+  - name: bear
+    clip: {fileID: 8300000, guid: 9c99c3f40ad82da48a0c8c6215afd6cc, type: 3}
+    volume: 0.3
+    pitch: 0.5
+    volumeClip: {fileID: 0}
 --- !u!4 &541702907
 Transform:
   m_ObjectHideFlags: 0
@@ -23098,8 +23103,8 @@ Transform:
   m_GameObject: {fileID: 1813648061}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.348553, y: -4.8755937, z: -8.674862}
-  m_LocalScale: {x: 12.670901, y: 8.358631, z: 1}
+  m_LocalPosition: {x: 36.8088, y: -4.8755937, z: -8.674862}
+  m_LocalScale: {x: 9.485436, y: 8.358631, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1095190738}
@@ -24414,8 +24419,8 @@ Transform:
   m_GameObject: {fileID: 1991551845}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.3385, y: -4.8755937, z: -8.674862}
-  m_LocalScale: {x: 14.024993, y: 8.358631, z: 1}
+  m_LocalPosition: {x: 27.9299, y: -4.8755937, z: -8.674862}
+  m_LocalScale: {x: 15.844034, y: 8.358631, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1095190738}
