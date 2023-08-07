@@ -230,7 +230,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 917c3f445a649ce468bfee892ad735a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textFruits: {fileID: 0}
+  textFruitsApple: {fileID: 0}
+  textFruitsOrange: {fileID: 0}
+  textFruitsBanana: {fileID: 0}
 --- !u!114 &2461754374124515054
 MonoBehaviour:
   m_ObjectHideFlags: 0

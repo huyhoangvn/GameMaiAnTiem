@@ -42,5 +42,7 @@ public class MenuManager : MonoBehaviour
     public void Exit()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
+
     }
 }

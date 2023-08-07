@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8902964108766979072}
   - component: {fileID: 4987463497347616458}
   - component: {fileID: 6964997974076197180}
+  - component: {fileID: 5520210018886834059}
   m_Layer: 7
   m_Name: Qua
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1958529453
+  m_SortingLayerID: 1188430349
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1846467831, guid: 88eb2bef0800d4c4a845efce13de5919, type: 3}
@@ -125,6 +126,7 @@ MonoBehaviour:
   pointB: {fileID: 8877231844943745943}
   currentPosition: {fileID: 0}
   speed: 3
+  damage: 2
 --- !u!61 &4987463497347616458
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -197,6 +199,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &5520210018886834059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234130121387875743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708d03edd9a0e4c40b4e21d468a75b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  maxHealth: 100
+  effect: {fileID: 0}
+  health: {fileID: 4976279133361151748, guid: c11f1e1f8ee66d647b2621b7486abe12, type: 3}
 --- !u!1 &3858584383546250880
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3858584383546250880}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 28.110773, y: 3.2205312, z: -0.061345637}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

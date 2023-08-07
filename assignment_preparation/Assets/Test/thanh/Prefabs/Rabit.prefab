@@ -106,7 +106,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1958529453
+  m_SortingLayerID: 1188430349
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -733602305, guid: 450018cb6d176694ab30b7c9ba231b99, type: 3}
@@ -202,6 +202,7 @@ MonoBehaviour:
   pointB: {fileID: 8510505264326689908}
   currentPosition: {fileID: 0}
   speed: 3
+  damage: 2
 --- !u!50 &928836433677419754
 Rigidbody2D:
   serializedVersion: 4
@@ -244,6 +245,7 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 100
   effect: {fileID: 4479283778535044285, guid: 0805d1f303a23a74f8b4a39e0b820c94, type: 3}
+  health: {fileID: 4976279133361151748, guid: c11f1e1f8ee66d647b2621b7486abe12, type: 3}
 --- !u!1 &4148902756061402515
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +270,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4148902756061402515}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.4959488, y: 4.7731442, z: 0.27388856}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

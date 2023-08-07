@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -30,7 +31,7 @@ public class PlayerHealth : MonoBehaviour
             
         }
         else*/
-        if (Input.GetKeyDown(KeyCode.L))
+        /*if (Input.GetKeyDown(KeyCode.L))
         {
             healthbar.value += 2;
             Debug.Log(healthbar.value);
@@ -50,7 +51,7 @@ public class PlayerHealth : MonoBehaviour
                 colorFill.color = Color.green;
 
             }
-        }
+        }*/
         
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -62,6 +63,11 @@ public class PlayerHealth : MonoBehaviour
         if (collision.gameObject.tag == "River")
         {
             TakeDamage(10f);
+        }
+        if (collision.gameObject.tag == "Health")
+        {
+            AddHealth(2);
+            Destroy(collision.gameObject);
         }
     }
     public void TakeDamage(float damage)
@@ -84,8 +90,29 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("Die r nhe:))");
             gameObject.SetActive(false);
-            
+            SceneManager.LoadScene(0);
             Instantiate(effectDie, transform.position, Quaternion.identity);
+        }
+    }
+    public void AddHealth(float addHealth)
+    {
+        healthbar.value += addHealth;
+        //Debug.Log(healthbar.value);
+        if (healthbar.value <= 6)
+        {
+            Debug.Log("Mau Vang r nhe:))");
+            colorFill.color = Color.yellow;
+
+        }
+        if (healthbar.value <= 2)
+        {
+            Debug.Log("Die r nhe:))");
+            colorFill.color = Color.red;
+        }
+        if (healthbar.value >= maxHealth)
+        {
+            colorFill.color = Color.green;
+
         }
     }
 
