@@ -23,7 +23,7 @@ public class Wife : MonoBehaviour
     {
         if (isGameOver)
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(3);
         }
     }
 
