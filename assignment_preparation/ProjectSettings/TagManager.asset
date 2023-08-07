@@ -7,6 +7,11 @@ TagManager:
   - Fruits
   - Trap
   - River
+  - Bear
+  - Health
+  - Apple
+  - Orange
+  - Banana
   layers:
   - Default
   - TransparentFX

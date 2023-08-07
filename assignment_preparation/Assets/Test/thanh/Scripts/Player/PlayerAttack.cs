@@ -39,6 +39,7 @@ public class PlayerAttack : MonoBehaviour
         {
             Debug.Log("Attack: "+ enemy.name);
             enemy.GetComponent<EnemyHealth>().TakeDamage(110f);
+           // enemy.GetComponent<BearHealth>().TakeDamage(110f);
         }
     }
     private void OnDrawGizmos()

@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class BossAttack : MonoBehaviour
 {
-    /*public int attackDamage = 4;
+    public int attackDamage = 4;
     public Vector3 attackOffset;
     public float attackRange = 1f;
-    public LayerMask attackMask;*/
+    public LayerMask attackMask;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,14 +17,14 @@ public class BossAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             Attack();
-        }*/
+        }
     }
     public void Attack()
     {
-        /*Vector3 pos = transform.position;
+        Vector3 pos = transform.position;
         pos += transform.right * attackOffset.x;
         pos += transform.up * attackOffset.y;
         Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
@@ -32,8 +32,8 @@ public class BossAttack : MonoBehaviour
         {
             colInfo.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
 
-        }*/
-        gameObject.GetComponent<PlayerHealth>().TakeDamage(2f);
-        Debug.Log("ATTATATATATAT");
+        }
+        /*        gameObject.GetComponent<PlayerHealth>().TakeDamage(2f);*/
+       // Debug.Log("ATTATATATATAT");
     }
 }

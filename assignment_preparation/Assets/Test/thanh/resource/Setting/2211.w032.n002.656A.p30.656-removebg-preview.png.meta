@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39c0bfe291acbe4409afee54a87a6368
+guid: 14e8ec47b23d1ba4e9728b1979f469c9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,55 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Healthbar_0
+      name: 2211.w032.n002.656A.p30.656-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 511
-        width: 1416
-        height: 459
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2dc3244ce7e219419cbff452fc5a6cb
-      internalID: 1346536831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthbar_1
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 17
-        width: 1414
-        height: 459
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7162dd19b6bb6e4fbba4a077df5ab19
-      internalID: -575499900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthbar_2
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 144
-        width: 158
-        height: 207
+        x: 40
+        y: 175
+        width: 90
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b121b36a9373c4c86d48e6973d12d9
-      internalID: -520235860
+      spriteID: b9557fc582391ee49884fb1dd109c829
+      internalID: 321205511
       vertices: []
       indices: 
       edges: []
@@ -196,9 +154,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Healthbar_0: 1346536831
-      Healthbar_1: -575499900
-      Healthbar_2: -520235860
+      2211.w032.n002.656A.p30.656-removebg-preview_0: 321205511
+      2211.w032.n002.656A.p30.656-removebg-preview_1: 879439568
+      2211.w032.n002.656A.p30.656-removebg-preview_10: 2010084668
+      2211.w032.n002.656A.p30.656-removebg-preview_11: 1051418626
+      2211.w032.n002.656A.p30.656-removebg-preview_2: 1079490214
+      2211.w032.n002.656A.p30.656-removebg-preview_3: -1931092048
+      2211.w032.n002.656A.p30.656-removebg-preview_4: 1533780827
+      2211.w032.n002.656A.p30.656-removebg-preview_5: 189947479
+      2211.w032.n002.656A.p30.656-removebg-preview_6: -1928924604
+      2211.w032.n002.656A.p30.656-removebg-preview_7: -1571554123
+      2211.w032.n002.656A.p30.656-removebg-preview_8: 1519578012
+      2211.w032.n002.656A.p30.656-removebg-preview_9: -782611103
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
     public float currentHealth;
     public float maxHealth = 100f;
     public GameObject effect;
+    public GameObject health;
 
     void Start()
     {
@@ -22,15 +23,21 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
-        if(currentHealth < 0f)
+        if(currentHealth > 0f)
         {
-            Die();
+            Instantiate(effect, transform.position, Quaternion.identity);
+
+        }
+        if (currentHealth < 0f)
+        {
+            gameObject.SetActive(false);
+            Invoke("Die", 0.3f);
         }
     }
     public void Die()
     {
-        Instantiate(effect, transform.position, Quaternion.identity);
-        gameObject.SetActive(false);
+        Instantiate(health, transform.position, Quaternion.identity);
+        
     }
     
 }
