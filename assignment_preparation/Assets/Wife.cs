@@ -21,7 +21,7 @@ public class Wife : MonoBehaviour
     }
     private void Update()
     {
-        if (isGameOver)
+        if (isGameOver && dialogueManager.getFinished())
         {
             SceneManager.LoadScene(3);
         }
