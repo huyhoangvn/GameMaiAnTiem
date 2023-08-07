@@ -12,6 +12,8 @@ public class PlayerItemCollider : MonoBehaviour
     private int countFruitsOrange = 0;
     public Text textFruitsBanana;
     private int countFruitsBanana = 0;
+    public Text textFruitsWatermelon;
+    private int countFruitsWatermelon = 0;
     void Start()
     {
         
@@ -26,21 +28,32 @@ public class PlayerItemCollider : MonoBehaviour
     {
         if(collision.gameObject.tag == "Apple")
         {
+            FindObjectOfType<AudioManager>().Play("pickup");
             Destroy(collision.gameObject);
             countFruitsApple++;
             textFruitsApple.text =""+ countFruitsApple;
         }
         if (collision.gameObject.tag == "Orange")
         {
+            FindObjectOfType<AudioManager>().Play("pickup");
             Destroy(collision.gameObject);
             countFruitsOrange++;
             textFruitsOrange.text = "" + countFruitsOrange;
         }
         if (collision.gameObject.tag == "Banana")
         {
+            FindObjectOfType<AudioManager>().Play("pickup");
             Destroy(collision.gameObject);
             countFruitsBanana++;
             textFruitsBanana.text = "" + countFruitsBanana;
+        }
+        if (collision.gameObject.tag == "Watermelon")
+        {
+            FindObjectOfType<AudioManager>().Play("pickup");
+            Destroy(collision.gameObject);
+            countFruitsWatermelon++;
+            textFruitsWatermelon.text = "" + countFruitsWatermelon;
+            FindObjectOfType<StorySceneManagerLevel1>().loadStoryScenePart(2);
         }
     }
 }

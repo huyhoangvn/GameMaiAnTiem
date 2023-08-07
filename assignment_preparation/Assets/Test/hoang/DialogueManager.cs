@@ -15,12 +15,14 @@ public class DialogueManager : MonoBehaviour
     public UnityEngine.UI.Image storyImage;
     public TextMeshProUGUI continuesBtn;
     public GameObject canvas;
+    private bool isFinished;
     // Start is called before the first frame update
     void Start()
     {
         currentDialog = null;
         currentIndex = 0;
         canvas.SetActive(false);
+        isFinished = true;
     }
 
     // Update is called once per frame
@@ -31,11 +33,11 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         //Update Stoty By Time
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             if (currentDialog.Length == currentIndex+1)
             {
-                closeCanvas();
+                isFinished = true;
             } else
             {
                 loadNextDialog();
@@ -63,10 +65,15 @@ public class DialogueManager : MonoBehaviour
 
     public void loadDialogues(string storyName)
     {
+        if (!isFinished)
+        {
+            return;
+        }
         storyObject = GameObject.Find(storyName);
         currentDialog = (Dialogue[]) storyObject.GetComponent<DialogueTrigger>().getDialogues().Clone();
         if (currentDialog != null)
         {
+            isFinished = false;
             currentIndex = 0;
             setScene();
         }
@@ -85,5 +92,10 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         canvas.SetActive(true);
+    }
+
+    public bool getFinished()
+    {
+        return isFinished;
     }
 }
