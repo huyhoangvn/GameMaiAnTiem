@@ -11,11 +11,13 @@ public class Player_Movement : MonoBehaviour
     public float speed = 5f;
     public float jump = 13f;
     private BoxCollider2D box;
+    private AudioManager audio;
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         box = GetComponent<BoxCollider2D>();
+        audio = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -47,6 +49,7 @@ public class Player_Movement : MonoBehaviour
         if (IsGrounded())
         {
             anim.SetTrigger("jump");
+            audio.Play("jump");
             rb.velocity = new Vector2(rb.velocity.x, jump);
 
         }

@@ -16,11 +16,13 @@ public class PlayerHealth : MonoBehaviour
     public float iFramesDuration;
     public int numberOfflashes;
     private SpriteRenderer spriteRend;
+    private AudioManager audio;
     void Start()
     {
         spriteRend = GetComponent<SpriteRenderer>();
         healthbar.value = maxHealth;
         colorFill.color = Color.green;
+        audio = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -72,6 +74,7 @@ public class PlayerHealth : MonoBehaviour
     }
     public void TakeDamage(float damage)
     {
+        audio.Play("gethit");
         healthbar.value -= damage;
         StartCoroutine(Invunerability());
 

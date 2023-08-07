@@ -12,6 +12,8 @@ TagManager:
   - Apple
   - Orange
   - Banana
+  - Watermelon
+  - NPC
   layers:
   - Default
   - TransparentFX

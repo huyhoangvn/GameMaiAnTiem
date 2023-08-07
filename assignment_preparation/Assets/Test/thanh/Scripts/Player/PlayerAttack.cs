@@ -22,7 +22,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if(Time.time > nextTime)
         {
-            if (Input.GetKeyDown(KeyCode.P))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 Attack();
                 nextTime = Time.time + 1f / timeAttack;
@@ -34,6 +34,7 @@ public class PlayerAttack : MonoBehaviour
     private void Attack()
     {
         anim.SetTrigger("attack");
+        FindObjectOfType<AudioManager>().Play("atk");
         Collider2D[] hit = Physics2D.OverlapCircleAll(pointAttack.position, attackRange,enemyMask);
         foreach(Collider2D enemy in hit)
         {

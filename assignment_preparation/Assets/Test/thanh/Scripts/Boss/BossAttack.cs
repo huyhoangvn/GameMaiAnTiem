@@ -17,13 +17,17 @@ public class BossAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+/*        if (Input.GetKeyDown(KeyCode.G))
         {
             Attack();
-        }
+        }*/
     }
     public void Attack()
     {
+        if (!FindObjectOfType<AudioManager>().IsPLaying("bear"))
+        {
+            FindObjectOfType<AudioManager>().Play("bear");
+        }
         Vector3 pos = transform.position;
         pos += transform.right * attackOffset.x;
         pos += transform.up * attackOffset.y;
