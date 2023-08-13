@@ -14,6 +14,8 @@ TagManager:
   - Banana
   - Watermelon
   - NPC
+  - GameOver
+  - Coin
   layers:
   - Default
   - TransparentFX

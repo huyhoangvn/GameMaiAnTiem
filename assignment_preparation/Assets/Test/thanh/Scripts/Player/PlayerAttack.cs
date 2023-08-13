@@ -12,6 +12,7 @@ public class PlayerAttack : MonoBehaviour
     private float attackRange = 0.5f;
     private float nextTime = 0f;
     private float timeAttack = 1f;
+    public GameObject bullet;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -33,8 +34,21 @@ public class PlayerAttack : MonoBehaviour
     }
     private void Attack()
     {
-        anim.SetTrigger("attack");
-        FindObjectOfType<AudioManager>().Play("atk");
+        anim.SetTrigger("attack");  
+        //Can create throwable object here
+
+        GameObject bulletForward = Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+        Rigidbody2D rb1 = bulletForward.GetComponent<Rigidbody2D>();
+        rb1.AddForce(Vector2.left * 10f, ForceMode2D.Impulse);
+        GameObject bulletBack = Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+        Rigidbody2D rb2 = bulletBack.GetComponent<Rigidbody2D>();
+        rb2.AddForce(Vector2.right * 10f, ForceMode2D.Impulse);
+
+        //Good place
+        if (FindObjectOfType<AudioManager>())
+        {
+            FindObjectOfType<AudioManager>().Play("atk");
+        }
         Collider2D[] hit = Physics2D.OverlapCircleAll(pointAttack.position, attackRange,enemyMask);
         foreach(Collider2D enemy in hit)
         {

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4442498bdacd2ec449305466e37800c0
+guid: cef414be61ca34943953edf6812f51ae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,534 +106,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: forage_0
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 198
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59b80376cb5f0cc468c01823016870eb
-      internalID: -208375277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 198
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee9295789c6869b4791c7cf039276882
-      internalID: -705440793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_2
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 198
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 705eb335d90287244a8c091eace42006
-      internalID: 1970181864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_3
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 197
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f29e8835915103f4d8d953b1b9abd5ef
-      internalID: -79928024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_4
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 196
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a00b46c391953ba46bff5f6199a5b7d0
-      internalID: -1417130804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_5
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 195
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 965caa19f512e5447907890d7d981262
-      internalID: -1922961722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_6
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 169
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90919d3329820aa4ba5bda3fc2345b8d
-      internalID: -1322061828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_7
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 167
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4b0b8f015a6b5441b31c36546d2aa81
-      internalID: 1557483963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_8
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 169
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 734c382d31ba1f5428835c5679345763
-      internalID: 1857435173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_9
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 168
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4601ac847011cb846af3fcb8110fc5fe
-      internalID: 1789199372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_10
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 168
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c36c2ea7fea4c914c8f80f0a375dbe4c
-      internalID: -1279580932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_11
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 170
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93ec600681a2f5940a096a6ad2709583
-      internalID: -1467139192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_12
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 139
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bc800742a81a344fa14ef0eb19986e7
-      internalID: 347965271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_13
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca5d01f22aa13ed4ead449d266c74454
-      internalID: -1641676690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_14
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 138
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a98bc2ecfebe8464e9c6ca3133a7bdc8
-      internalID: 907518952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_15
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 137
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65ebee317abc455478ef7de757e41e85
-      internalID: -1304745649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_16
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 136
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71a817c99af2e7747a6e28e316a2fe94
-      internalID: -1534884232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_17
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 138
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e86c7383de4338439dcafca418ffbf9
-      internalID: 1269738285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_18
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 108
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18d2d5aa9aa03a04dabd0bc0043292bc
-      internalID: -2110557339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_19
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 107
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fe03a4fba12aa0458d47f5a8f1d9fb4
-      internalID: 2041937042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_20
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 107
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74969324653179549ae9b14628252a22
-      internalID: 1586084930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_21
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 107
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 791a98967dcbcef4e8b4d5db45103853
-      internalID: -1006449394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_22
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 107
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fd0b17830ef01c4480499e8a5b69884
-      internalID: 423829292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_23
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 107
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71279d9a624df4a4eb92dedd88b1f984
-      internalID: 986667555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_24
+      name: coinnn_0
       rect:
         serializedVersion: 2
         x: 11
-        y: 77
-        width: 12
-        height: 13
+        y: 202
+        width: 35
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de57cb8887af1e34eabd267d842c6b51
-      internalID: 2133019455
+      spriteID: 561afdf153fbd4849b9898f834dee322
+      internalID: -1765233190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: forage_25
+      name: coinnn_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 77
-        width: 16
-        height: 14
+        x: 53
+        y: 202
+        width: 31
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,293 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80496458c8118714782aa2cc5a0f7bec
-      internalID: 1580304850
+      spriteID: 94fd3cc897bc9ff4496dd12146037e3b
+      internalID: -62409268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: forage_26
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 76
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6403e88dba87c02419b0d6a02bd44fed
-      internalID: 1571295106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_27
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 77
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff2042494d3f1d947831038461459161
-      internalID: 1394295642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_28
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 75
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f0f2003593c34d42912eda6461f80cb
-      internalID: -1153128778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_29
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 77
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68de4314ddccc1641a817400df966832
-      internalID: -651929309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_30
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 49
-        width: 11
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e40097715caa0648a0a179d2460a9fc
-      internalID: -636808995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_31
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 49
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5788ff062e73b14b8b6730b35be2f28
-      internalID: 34987302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_32
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 46
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 751abc97884436a498fe5aceb906120b
-      internalID: -1459518419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_33
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 48
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 361b9945e849aa548843503c6e19bd05
-      internalID: -1277613761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_34
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 47
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c38229fbe5b37444fba20d3bcffc530f
-      internalID: -621034003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_35
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 46
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a0d952463114f04295045e97ee2a315
-      internalID: 1021436086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_36
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 18
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18e1f38662ae24943bcdf69e42927550
-      internalID: -1694972856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_37
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 17
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb5112d065b43aa4fb882caf8b49b6ed
-      internalID: 1089425470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_38
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 17
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff5d3dde68c64a74d947943cc1d00668
-      internalID: -1341802656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_39
+      name: coinnn_2
       rect:
         serializedVersion: 2
         x: 91
-        y: 16
-        width: 13
-        height: 14
+        y: 202
+        width: 23
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -956,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2b18b1b67e7c8a4f910cb8c87db3aca
-      internalID: -1298147250
+      spriteID: 25753c1fc51472d4486d6b4f610000c3
+      internalID: 722228260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: forage_40
+      name: coinnn_3
       rect:
         serializedVersion: 2
-        x: 113
-        y: 16
-        width: 11
-        height: 11
+        x: 121
+        y: 202
+        width: 8
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -977,41 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89946e06a1b2efc45bcae163daad03ff
-      internalID: -744451730
+      spriteID: 5de310c7eb86f0f4f9444c9d29260d1f
+      internalID: -720629346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: forage_41
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 22
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7751ad080a71dd244b3d369b70863156
-      internalID: 825336024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forage_42
+      name: coinnn_4
       rect:
         serializedVersion: 2
         x: 136
-        y: 14
-        width: 10
-        height: 7
+        y: 202
+        width: 23
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1019,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20c7b00f59840614fa6b3e5bb553b0a5
-      internalID: 380921895
+      spriteID: 53dc1c1285aa2464a8bdadec95e3410a
+      internalID: 399431946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: forage_43
+      name: coinnn_5
       rect:
         serializedVersion: 2
-        x: 145
-        y: 15
-        width: 5
-        height: 6
+        x: 166
+        y: 202
+        width: 31
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1040,8 +229,617 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44caed59dd46c1a4597bbebe5c60cb6b
-      internalID: -1287594939
+      spriteID: 326a45990fff014429da61793177e2fe
+      internalID: 1378992662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 202
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddc23f55a4ec2d4f8e8622e25ae3131
+      internalID: 18798888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 155
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e7400de97e1bc4d9bdf0995cce1884
+      internalID: -2117922056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 155
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437e0b03c4d9e3a4690b0088054ca610
+      internalID: 1915422358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 155
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613070f64730a8c479884c1588fc7f53
+      internalID: 852876921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 155
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d29d6e6c75dfc48b3169dc60ad1cb9
+      internalID: 1571146786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 155
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cba2d8e3a3c66b42a7b3205b228a1a4
+      internalID: 912826436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_12
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 155
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe57a38270ffeee4e8870a5df4a97a36
+      internalID: 1657316957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 155
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf56e0e6e709364a9d791c46ea4966f
+      internalID: -1505148506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 107
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f5c926eb1137549a6d7e8829635d04
+      internalID: -1417485113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_15
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 107
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75a42647e259c0448e291082e4a56c1
+      internalID: -346179433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 107
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f858f8b587560c742a580905847bb6f2
+      internalID: 1177126513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_17
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 107
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812dd360a7055e745b37d1580f15102f
+      internalID: 1394484563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_18
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 107
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2650bdada8a200948bb0e98a1a02fe96
+      internalID: 279279817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 107
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d985d3ec3408e0646a8b63f412a78a95
+      internalID: 354175077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 107
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fadbb4b28aae2b48abfe00650c3e3a7
+      internalID: -1533651594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 60
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c01e07ccd8cc34380ca508c38f7bdb
+      internalID: 1109275630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 60
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21294b329e8f7ce4e9dc5b2549e52adc
+      internalID: 213546737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_23
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 60
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235ff3ee9d2f805449b8a87490cdafe3
+      internalID: 735771982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_24
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 60
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76395d5bd5245b24185e32e165a94084
+      internalID: -1986548811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 60
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd3e0538f4c8fa44b87c017986cb5d6
+      internalID: -287597839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_26
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 60
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3e02e3e66624642b6840a6712f9345
+      internalID: -2116056847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 60
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33916b483faf4eb4f92af04af84a1e65
+      internalID: -769931648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 12
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3914605b6ff71a4595f88ee8daae90d
+      internalID: -426674156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 12
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8615cb35406369f47b2e403d1af62b92
+      internalID: -593742002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_30
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 12
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7f5ce89d866b24fae340e86bda8f7b
+      internalID: -355676984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 12
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950a9b10349fda04c9ec69556c42fc60
+      internalID: 1906671660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 12
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47d3469fa6be1c47a45f52fcb15034c
+      internalID: 600906023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 12
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419a56d06b4b7f2458cc494b6ca3eda7
+      internalID: 1722707717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinnn_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 12
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85469bed841b4aa4eae378fe132b84c6
+      internalID: 998806391
       vertices: []
       indices: 
       edges: []
@@ -1057,50 +855,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      forage_0: -208375277
-      forage_1: -705440793
-      forage_10: -1279580932
-      forage_11: -1467139192
-      forage_12: 347965271
-      forage_13: -1641676690
-      forage_14: 907518952
-      forage_15: -1304745649
-      forage_16: -1534884232
-      forage_17: 1269738285
-      forage_18: -2110557339
-      forage_19: 2041937042
-      forage_2: 1970181864
-      forage_20: 1586084930
-      forage_21: -1006449394
-      forage_22: 423829292
-      forage_23: 986667555
-      forage_24: 2133019455
-      forage_25: 1580304850
-      forage_26: 1571295106
-      forage_27: 1394295642
-      forage_28: -1153128778
-      forage_29: -651929309
-      forage_3: -79928024
-      forage_30: -636808995
-      forage_31: 34987302
-      forage_32: -1459518419
-      forage_33: -1277613761
-      forage_34: -621034003
-      forage_35: 1021436086
-      forage_36: -1694972856
-      forage_37: 1089425470
-      forage_38: -1341802656
-      forage_39: -1298147250
-      forage_4: -1417130804
-      forage_40: -744451730
-      forage_41: 825336024
-      forage_42: 380921895
-      forage_43: -1287594939
-      forage_5: -1922961722
-      forage_6: -1322061828
-      forage_7: 1557483963
-      forage_8: 1857435173
-      forage_9: 1789199372
+      coinnn_0: -1765233190
+      coinnn_1: -62409268
+      coinnn_10: 1571146786
+      coinnn_11: 912826436
+      coinnn_12: 1657316957
+      coinnn_13: -1505148506
+      coinnn_14: -1417485113
+      coinnn_15: -346179433
+      coinnn_16: 1177126513
+      coinnn_17: 1394484563
+      coinnn_18: 279279817
+      coinnn_19: 354175077
+      coinnn_2: 722228260
+      coinnn_20: -1533651594
+      coinnn_21: 1109275630
+      coinnn_22: 213546737
+      coinnn_23: 735771982
+      coinnn_24: -1986548811
+      coinnn_25: -287597839
+      coinnn_26: -2116056847
+      coinnn_27: -769931648
+      coinnn_28: -426674156
+      coinnn_29: -593742002
+      coinnn_3: -720629346
+      coinnn_30: -355676984
+      coinnn_31: 1906671660
+      coinnn_32: 600906023
+      coinnn_33: 1722707717
+      coinnn_34: 998806391
+      coinnn_4: 399431946
+      coinnn_5: 1378992662
+      coinnn_6: 18798888
+      coinnn_7: -2117922056
+      coinnn_8: 1915422358
+      coinnn_9: 852876921
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

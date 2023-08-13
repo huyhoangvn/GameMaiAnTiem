@@ -12,6 +12,9 @@ public class Player_Movement : MonoBehaviour
     public float jump = 13f;
     private BoxCollider2D box;
     private AudioManager audio;
+    public GameObject bullet;
+    public float currentTime = 0f;
+    public float resetTime = 0.1f;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -36,6 +39,24 @@ public class Player_Movement : MonoBehaviour
         {
             Jump();
         }
+        if(horizontalInput != 0)
+        {
+            if(currentTime < resetTime)
+            {
+                currentTime += Time.deltaTime;
+            }
+            else
+            {
+                GameObject bulletForward = Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+                Rigidbody2D rb1 = bulletForward.GetComponent<Rigidbody2D>();
+                rb1.AddForce(Vector2.left * 10f, ForceMode2D.Impulse);
+                GameObject bulletBack = Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+                Rigidbody2D rb2 = bulletBack.GetComponent<Rigidbody2D>();
+                rb2.AddForce(Vector2.right * 10f, ForceMode2D.Impulse);
+                currentTime = 0;
+            }
+
+        }
         anim.SetBool("run", horizontalInput != 0);///neu horizontal khac 0 thi bat hieu ung di chuyen
         anim.SetBool("isGrounded", IsGrounded());//neu nhan vat cham dat thi tra ve true de bat hieu ung nhay
     }
@@ -49,10 +70,20 @@ public class Player_Movement : MonoBehaviour
         if (IsGrounded())
         {
             anim.SetTrigger("jump");
-            audio.Play("jump");
+            if (audio)
+            {
+                audio.Play("jump");
+            }
             rb.velocity = new Vector2(rb.velocity.x, jump);
 
         }
     }
-   
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("GameOver"))
+        {
+            transform.position = new Vector3(-0.6f - (Camera.main.orthographicSize * Camera.main.aspect * 2f)/2 + 1f, -0.2f + (Camera.main.orthographicSize * 2f) / 2 - 1f, 0 );
+        }
+    }
 }
